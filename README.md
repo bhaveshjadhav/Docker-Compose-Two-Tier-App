@@ -36,3 +36,8 @@ This project involves containerizing a two-tier application (web application wit
 ```sh
 sudo apt-get update
 sudo apt-get install docker.io
+
+### 3. Access Docker Daemon
+```sh
+sudo chown $USER /var/run/docker.sock
+
