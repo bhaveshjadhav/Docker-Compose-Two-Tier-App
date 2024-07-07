@@ -12,7 +12,7 @@
    sudo chown $USER /var/run/docker.sock
 
 4. Install Docker Compose
-   sudo apt install docker-compose
+   sudo apt install docker-compose-v2
 
 5. Clone the Repository
    git clone https://github.com/rajnishkaushik5/two-tier-application-project2.git
@@ -23,7 +23,7 @@
    Use the base image mysql:5.7 for the database. 
 
 7. Create docker-compose.yml
-   docker-compose up -d
+   docker compose up -d
 
 8. Access the Application
    Visit http://<your-public-ip-address>:5000
